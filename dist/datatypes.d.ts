@@ -1,2 +1,2 @@
-declare let text: string;
+export {};
 //# sourceMappingURL=datatypes.d.ts.map
