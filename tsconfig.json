@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* File Structure */
+    "rootDir": "./src", // Your TypeScript source files
+    "outDir": "./dist", // Compiled JavaScript output
+    /* Language & Module Settings */
+    "target": "es2017", // Modern JS features like async/await
+    "module": "commonjs", // Works well with Node.js without extra config
+    /* Type Checking */
+    "strict": true, // Enable all strict type-checking options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    /* Libraries & Types */
+    "lib": [
+      "esnext"
+    ], // Modern JS standard library
+    "types": [
+      "node"
+    ], // Node.js type definitions
+    /* Output Options */
+    "sourceMap": true, // Generates .map files for debugging
+    "declaration": true, // Generates .d.ts type definitions
+    "declarationMap": true, // Source maps for declaration files
+    /* Performance & Compatibility */
+    "skipLibCheck": true // Speeds up compilation by skipping type checks of libs
+  },
+  "include": [
+    "src"
+  ], // Include only src folder
+  "exclude": [
+    "node_modules"
+  ] // Exclude dependencies
+}
