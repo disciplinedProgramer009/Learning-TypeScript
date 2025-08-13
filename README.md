@@ -1,0 +1,1 @@
+The src folder contains all the typescript files which I have created to learn different topics of typescript and the dist folder contains the compiled js files along with other files created at runtime.
