@@ -53,5 +53,5 @@ console.log(result[0], " ", result[1]);
 let department; // or let department;
 department = "Developer";
 department = 10;
-console.log(department);
+console.log(department); // (10  works same as var in js)
 //# sourceMappingURL=datatypes.js.map
