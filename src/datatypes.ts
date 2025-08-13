@@ -61,3 +61,36 @@ let arrSum = numList.reduce((acc, curr) => {
 console.log(arrSum);  // 15
 console.log(res);  // [3, 4, 5]
 console.log(findResult);  // TypeScript
+
+/***************************** Enum Datatype **********************************/
+
+const enum Color {
+  Red,
+  Green,
+  Blue
+}
+
+let myColor : Color.Blue;
+
+/***************************** tuples Datatype **********************************/
+
+let myTuple : [number, number];
+
+function swapNumbers(firstNumber: number, secondNumber: number) : [number, number]{
+    return [secondNumber, firstNumber];
+}
+
+let result = swapNumbers(5, 10);
+console.log(result[0]," ",result[1]);
+//result[2] will give error at compile time while array gives array out of bounds error at runtime.
+
+
+/***************************** Any Datatype **********************************/
+
+// declare a variable of any type
+let department: any; // or let department;
+
+department = "Developer";
+department = 10;
+
+console.log(department);  // (10  works same as var in js)
