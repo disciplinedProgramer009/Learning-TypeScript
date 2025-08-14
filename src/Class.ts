@@ -32,6 +32,7 @@ class Employee implements Login{
         this.#id = id;
     }
 
+
     // Getter and Setter for name
     public getName(): Name {
         return this.name;

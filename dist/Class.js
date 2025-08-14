@@ -53,7 +53,7 @@ class Employee {
     // method to get employee address with name
     getNameWithAge() {
         // `` is called string literal and is the efficient way to use a string instead of concatenating strings.
-        return `${this.name} is ${this.age} years old.`;
+        return `${this.name.firstName} is ${this.age} years old.`;
     }
 }
 _Employee_id = new WeakMap();
